@@ -897,7 +897,7 @@ job = executor.submit(mnist)
 
 &#x20;
 
-**1) NCCL설치 및 확인**
+### **1) NCCL설치 및 확인**
 
 1-1) 설치 방법
 
@@ -918,7 +918,7 @@ include/  lib/    LICENSE.txt
 
 &#x20;
 
-**2) NCCL실행 예제**
+### **2) NCCL실행 예제**
 
 2-1) 실행 예제 다운로드
 
@@ -1430,7 +1430,7 @@ https://pytorch.org/tutorials/intermediate/ddp\_tutorial.html
 
 &#x20;
 
-**1) 작업제출 스크립트 예제**
+### **1) 작업제출 스크립트 예제**
 
 1-1) 단일노드 예제(단일노드 2GPU)
 
