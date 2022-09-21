@@ -2,13 +2,13 @@
 
 * [뉴론 지침서](README.md)
 
-## SYSTEM <a href="#System" id="System"></a>
+## SYSTEM
 
-* [시스템 개요 및 구성](System/neuron-system-overview-and-configuration.md)
-* [사용자 환경](System/user-environment.md)
-* [사용자 프로그래밍 환경](System/user-programming-environment.md)
-* [스케줄러(SLURM)를 통한 작업 실행](System/running-jobs-through-scheduler-slurm.md)
-* [사용자 지원](System/user-support.md)
+* [시스템 개요 및 구성](system/neuron-system-overview-and-configuration.md)
+* [사용자 환경](system/user-environment.md)
+* [사용자 프로그래밍 환경](system/user-programming-environment.md)
+* [스케줄러(SLURM)를 통한 작업 실행](system/running-jobs-through-scheduler-slurm.md)
+* [사용자 지원](system/user-support.md)
 
 ## SOFTWARE
 

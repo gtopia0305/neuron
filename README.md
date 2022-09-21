@@ -7,24 +7,24 @@ coverY: 0
 
 ### SYSTEM
 
-{% content-ref url="System/neuron-system-overview-and-configuration.md" %}
-[neuron-system-overview-and-configuration.md](System/neuron-system-overview-and-configuration.md)
+{% content-ref url="system/neuron-system-overview-and-configuration.md" %}
+[neuron-system-overview-and-configuration.md](system/neuron-system-overview-and-configuration.md)
 {% endcontent-ref %}
 
-{% content-ref url="System/user-environment.md" %}
-[user-environment.md](System/user-environment.md)
+{% content-ref url="system/user-environment.md" %}
+[user-environment.md](system/user-environment.md)
 {% endcontent-ref %}
 
-{% content-ref url="System/user-programming-environment.md" %}
-[user-programming-environment.md](System/user-programming-environment.md)
+{% content-ref url="system/user-programming-environment.md" %}
+[user-programming-environment.md](system/user-programming-environment.md)
 {% endcontent-ref %}
 
-{% content-ref url="System/running-jobs-through-scheduler-slurm.md" %}
-[running-jobs-through-scheduler-slurm.md](System/running-jobs-through-scheduler-slurm.md)
+{% content-ref url="system/running-jobs-through-scheduler-slurm.md" %}
+[running-jobs-through-scheduler-slurm.md](system/running-jobs-through-scheduler-slurm.md)
 {% endcontent-ref %}
 
-{% content-ref url="System/user-support.md" %}
-[user-support.md](System/user-support.md)
+{% content-ref url="system/user-support.md" %}
+[user-support.md](system/user-support.md)
 {% endcontent-ref %}
 
 ### SOFTWARE
