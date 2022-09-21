@@ -10,7 +10,7 @@ Horovod는 고성능 분산 컴퓨팅 환경에서 노드간 메시지 전달 �
 
 &#x20;
 
-**1) HOROVOD (Tensorflow) 설치 및 확인**
+### **1) HOROVOD (Tensorflow) 설치 및 확인**
 
 1-1) 설치 방법
 
@@ -61,7 +61,7 @@ Horovod v0.23.0:
 
 &#x20;
 
-**2) HOROVOD (Tensorflow) 실행 예제**
+### **2) HOROVOD (Tensorflow) 실행 예제**
 
 2-1) 작업제출 스크립트를 이용한 실행
 
@@ -102,7 +102,7 @@ $ source activate my_tensorflow
 
 &#x20;
 
-**3) HOROVOD (Pytorch) 설치 및 확인**
+### **3) HOROVOD (Pytorch) 설치 및 확인**
 
 3-1) 설치 방법
 
@@ -152,7 +152,7 @@ Available Tensor Operations:
 
 &#x20;
 
-**4) HOROVOD (Pytorch) 실행 예제**
+### **4) HOROVOD (Pytorch) 실행 예제**
 
 4-1) 작업제출 스크립트 예제
 
@@ -207,7 +207,7 @@ GLOO의 설치는 horovod에 종속성을 가지며, horovod를 설치하는 과
 
 &#x20;
 
-**1) GLOO 실행 예제**
+### **1) GLOO 실행 예제**
 
 1-1) 작업제출 스크립트 예제
 
@@ -258,7 +258,7 @@ Ray는 멀티노드 환경에서 병렬 실행을 위한 python 기반의 워크
 
 &#x20;
 
-**1) Ray 설치 및 단일 노드 실행 예제**
+### **1) Ray 설치 및 단일 노드 실행 예제**
 
 1-1) 설치 방법
 
@@ -346,7 +346,7 @@ $ source activate my_ray
 
 &#x20;****&#x20;
 
-**2) Ray Cluster 설치 및 멀티 노드 실행 예제**
+### **2) Ray Cluster 설치 및 멀티 노드 실행 예제**
 
 Ray는 멀티노드 실행 시 하나의 head 노드와 다수의 worker 노드로 실행되며, 테스크를 할당된 자원에 효율적으로 스케줄링 해 준다.
 
@@ -472,7 +472,7 @@ starting ray worker node
 
 &#x20;
 
-**3) Ray Cluster (pytorch) 설치 및 멀티 노드 실행 예제**
+### **3) Ray Cluster (pytorch) 설치 및 멀티 노드 실행 예제**
 
 1-1) 설치 방법
 
@@ -601,7 +601,7 @@ Submitit은 Slurm 클러스터 내에서 계산을 위해 Python 함수를 제�
 
 &#x20;
 
-**1) 예제 1**
+### **1) 예제 1**
 
 \- add.py
 
@@ -682,7 +682,7 @@ srun
 
 &#x20;
 
-**2) 예제 2**
+### **2) 예제 2**
 
 \- add.py
 
@@ -761,7 +761,7 @@ $ ./add.py
 
 &#x20;
 
-**3) Submit: Multitask Job 예제**
+### **3) Submit: Multitask Job 예제**
 
 &#x20;
 
@@ -1204,7 +1204,7 @@ gpu36 rank:0 gpu3 0 0 0 0 0 0 0 0
 
 
 
-**바. Tensorflow Distribute**
+## **바. Tensorflow Distribute**
 
 &#x20;
 
@@ -1212,7 +1212,7 @@ Tensorflow Distibute는 멀티 GPU 또는 멀티 서버를 활용하여 분산 �
 
 &#x20;
 
-**1) Conda 환경에서 tensorflow 설치 및 확인**
+### **1) Conda 환경에서 tensorflow 설치 및 확인**
 
 &#x20;1-1) 설치 방법
 
@@ -1238,7 +1238,7 @@ tensorflow-metadata       1.7.0                    pypi_0    pypi
 
 &#x20;
 
-**2) 단일 노드, 멀티 GPU 활용(tf.distribute.MirroredStrategy() 사용)**
+### **2) 단일 노드, 멀티 GPU 활용(tf.distribute.MirroredStrategy() 사용)**
 
 2-1) 코드 예제(tf\_multi\_keras.py)
 
@@ -1324,7 +1324,7 @@ python tf_multi_keras.py
 
 &#x20;
 
-**3) 멀티 노드, 멀티 GPU 활용(tf.distribute.MultiWorkerMirroedStrategy() 사용)**
+### **3) 멀티 노드, 멀티 GPU 활용(tf.distribute.MultiWorkerMirroedStrategy() 사용)**
 
 멀티 노드에서 활용하기 위해 전략을 수정하고 각 노드에 환경 변수 TF\_CONFIG 설정
 
@@ -1406,7 +1406,7 @@ done
 
 &#x20;
 
-**4) 참조**
+### **4) 참조**
 
 4-1) 케라스(Keras)를 활용한 분산 훈련([https://www.tensorflow.org/tutorials/distribute/keras](https://www.tensorflow.org/tutorials/distribute/keras))
 

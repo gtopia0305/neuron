@@ -1,6 +1,6 @@
 # 딥러닝 프레임워크 병렬화 (Horovod) 사용법
 
-가. Tensorflow에서 Horovod 사용법
+## 가. Tensorflow에서 Horovod 사용법
 
 다중노드에서 멀티 GPU를 활용할 경우 Horovod를 Tensorflow와 연동하여 병렬화가 가능하다. 아래 예시와 같이 Horovod 사용을 위한 코드를 추가해주면 Tensorflow와 연동이 가능하다. Tensorflow 및 Tensorflow에서 활용 가능한 Keras API 모두 Horovod와 연동이 가능하며 우선 Tensorflow에서 Horovod와 연동하는 방법을 소개한다.\
 (예시: MNIST Dataset 및 LeNet-5 CNN 구조)
@@ -78,7 +78,7 @@ config=config) as mon_sess:
 
 
 
-나. Keras에서 Horovod 사용법
+## 나. Keras에서 Horovod 사용법
 
 Tensorflow에서는 Keras API를 활용할 경우에도 Horovod와 연동하여 병렬화가 가능하다. 아래 예시와 같이 Horovod 사용을 위한 코드를 추가해주면 Keras와 연동이 가능하다.\
 (예시: MNIST Dataset 및 LeNet-5 CNN 구조)
@@ -151,7 +151,7 @@ verbose=1 if hvd.rank() == 0 else 0, validation_data=(x_test, y_test))
 
 
 
-다. PyTorch에서 Horovod 사용법
+## 다. PyTorch에서 Horovod 사용법
 
 다중노드에서 멀티 GPU를 활용할 경우 Horovod를 PyTorch와 연동하여 병렬화가 가능하다. 아래 예시와 같이 Horovod 사용을 위한 코드를 추가해주면 PyTorch와 연동이 가능하다.\
 (예시: MNIST Dataset 및 LeNet-5 CNN 구조)
