@@ -50,15 +50,34 @@
 ※ 실행파일은 공유 디렉터리에서 /apps/jupyter/kisti\_conda\_jupyter.sh 로 바로 실행 가능하다.\
 ※ 아래 테스트는 사용자ID _<mark style="color:red;">**a1113a01**</mark>_ <mark style="color:red;"></mark><mark style="color:red;"></mark> 로 진행하였다.
 
-| <p>[a1113a01@glogin02 ~]$ <mark style="color:red;"> <strong>sh /apps/jupyter/kisti_conda_jupyter.sh</strong></mark><br>... ...<br>modified /home01/a1113a01/.bashrc<br>...prepare conda environment for jupyter user.<br>Exporting CONDA ENVS and PKGS PATH to bash File.<br>Downloading and Extracting Packages<br>#################################################################### | 100%<br>#################################################################### | 100%<br>#################################################################### | 100%<br>#################################################################### | 100%<br>Preparing transaction: done<br>Verifying transaction: done<br>Executing transaction: / WARNING conda.core.prefix_data:_load_single_record(167):<br>Ignoring malformed prefix record at:<br>/scratch/a1113a01/.conda/envs/notebook/conda-meta/001.pycurl-7.43.0.5-py37h16ce93b_0.json<br>done</p> |   |   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - | - |
+```
+[a1113a01@glogin02 ~]$ sh /apps/jupyter/kisti_conda_jupyter.sh
+... ...
+modified /home01/a1113a01/.bashrc
+...prepare conda environment for jupyter user.
+Exporting CONDA ENVS and PKGS PATH to bash File.
+Downloading and Extracting Packages
+#################################################################### | 100%
+#################################################################### | 100%
+#################################################################### | 100%
+#################################################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: / WARNING conda.core.prefix_data:_load_single_record(167):
+Ignoring malformed prefix record at:
+/scratch/a1113a01/.conda/envs/notebook/conda-meta/001.pycurl-7.43.0.5-py37h16ce93b_0.json
+done
+```
 
 
 
 \- shell을 다시 시작하고 base 환경 자동 활성화 기능을 꺼야 한다. (한번만 실행)
 
-| <p>[a1113a01@glogin01 ~]$ <mark style="color:red;"><strong>source ~/.bashrc</strong></mark><br>(base) [a1113a01@glogin01 ~]$ <mark style="color:red;"><strong>conda config --set auto_activate_base false</strong></mark><br>(base) [a1113a01@glogin01 ~]$ <mark style="color:red;"><strong>conda deactivate</strong></mark></p> |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+```
+[a1113a01@glogin01 ~]$ source ~/.bashrc
+(base) [a1113a01@glogin01 ~]$ conda config --set auto_activate_base false
+(base) [a1113a01@glogin01 ~]$ conda deactivate
+```
 
 ※ base 환경 자동 활성화 기능을 false 로 설정함으로 다음에 base 환경으로 자동 활성화 되는 것을 방지한다. （만약 base 환경으로 활성화 되지 않았으면 source \~/.bashrc 이후 바로 conda activate notebook 명령어를 실행)
 
@@ -66,8 +85,10 @@
 
 \- conda notebook 환경을 다음 명령어로 활성화 한다.
 
-| <p>[a1113a01@glogin01 ~]$ <mark style="color:red;"><strong>conda activate notebook</strong></mark><br>(notebook) [a1113a01@glogin01 ~]$</p> |
-| ------------------------------------------------------------------------------------------------------------------------------------------- |
+```
+[a1113a01@glogin01 ~]$ conda activate notebook
+(notebook) [a1113a01@glogin01 ~]$
+```
 
 
 
@@ -75,8 +96,29 @@
 
 ※ 주의: 반드시 notebook 사용자 환경에서 실행해야 한다.
 
-| <p>(notebook) 757% [a1113a01@glogin01 ~]$ <mark style="color:red;"><strong>sh /apps/jupyter/kisti_conda_plugins.sh</strong></mark><br>Installing /scratch/a1113a01/.conda/envs/notebook/lib/python3.7/site-packages/ipyparallel/nbextension/static -> ipyparallel<br>Up to date: /scratch/a1113a01/.conda/envs/notebook/share/jupyter/nbextensions/ipyparallel/clusterlist.css<br>Up to date: /scratch/a1113a01/.conda/envs/notebook/share/jupyter/nbextensions/ipyparallel/clusterlist.js<br>Up to date: /scratch/a1113a01/.conda/envs/notebook/share/jupyter/nbextensions/ipyparallel/main.js<br>- Validating: OK</p><p>To initialize this nbextension in the browser every time the notebook (or other app) loads:<br><br>jupyter nbextension enable ipyparallel --py --sys-prefix<br><br>Enabling tree extension ipyparallel/main...<br>- Validating: OK<br>Enabling: ipyparallel.nbextension<br>- Writing config: /scratch/a1113a01/.conda/envs/notebook/etc/jupyter<br>- Validating...<br>ipyparallel.nbextension OK<br>[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipython_config.py'<br>[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipython_kernel_config.py'<br>[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipcontroller_config.py'<br>[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipengine_config.py'<br>[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipcluster_config.py'</p> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+```
+(notebook) 757% [a1113a01@glogin01 ~]$ sh /apps/jupyter/kisti_conda_plugins.sh
+Installing /scratch/a1113a01/.conda/envs/notebook/lib/python3.7/site-packages/ipyparallel/nbextension/static -> ipyparallel
+Up to date: /scratch/a1113a01/.conda/envs/notebook/share/jupyter/nbextensions/ipyparallel/clusterlist.css
+Up to date: /scratch/a1113a01/.conda/envs/notebook/share/jupyter/nbextensions/ipyparallel/clusterlist.js
+Up to date: /scratch/a1113a01/.conda/envs/notebook/share/jupyter/nbextensions/ipyparallel/main.js
+- Validating: OK
+To initialize this nbextension in the browser every time the notebook (or other app) loads:
+
+jupyter nbextension enable ipyparallel --py --sys-prefix
+
+Enabling tree extension ipyparallel/main...
+- Validating: OK
+Enabling: ipyparallel.nbextension
+- Writing config: /scratch/a1113a01/.conda/envs/notebook/etc/jupyter
+- Validating...
+ipyparallel.nbextension OK
+[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipython_config.py'
+[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipython_kernel_config.py'
+[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipcontroller_config.py'
+[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipengine_config.py'
+[ProfileCreate] Generating default config file: '/home01/a1113a01/.ipython/profile_slurm/ipcluster_config.py'
+```
 
 ※ 이제부터 사용자는 직접 웹에 접속하여 Jupyter 노트북을 사용할 수 있다. (여기까지 작업들은 한번만 실행하면 됨)
 
@@ -314,8 +356,21 @@ queue: 병렬 작업을 제출할 큐 이름 (아래 자원 현황을 보고 선
 
 \- /sratch/\[사용자ID]/workspace/에 데이터는 보존된다.
 
-| <p>[a1113a01@glogin02 ~]$ sh /apps/jupyter/reset_env.sh</p><p>Remove all packages in environment /scratch/a1113a01/.conda/envs/notebook:</p><p>Preparing transaction: done</p><p>Verifying transaction: done</p><p>Executing transaction: / WARNING conda.core.prefix_data:_load_single_record(167): Ignoring malformed prefix record at: /scratch/acnta03/.conda/envs/notebook/conda-meta/001.pysocks-1.7.1-py37hc8dfbb8_1.json</p><p>done</p><p></p><p>One more step left, please execute these commands !!!!!!!</p><p>1. conda activate notebook</p><p>2. sh /apps/jupyter/kisti_conda_plugins.sh</p><p></p><p>[a1113a01@glogin02 ~]$ conda activate notebook</p><p>(notebook) [a1113a01@glogin02 ~]$ sh /apps/jupyter/kisti_conda_plugins.sh</p> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+```
+[a1113a01@glogin02 ~]$ sh /apps/jupyter/reset_env.sh
+Remove all packages in environment /scratch/a1113a01/.conda/envs/notebook:
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: / WARNING conda.core.prefix_data:_load_single_record(167): Ignoring malformed prefix record at: /scratch/acnta03/.conda/envs/notebook/conda-meta/001.pysocks-1.7.1-py37hc8dfbb8_1.json
+done
+
+One more step left, please execute these commands !!!!!!!
+1. conda activate notebook
+2. sh /apps/jupyter/kisti_conda_plugins.sh
+
+[a1113a01@glogin02 ~]$ conda activate notebook
+(notebook) [a1113a01@glogin02 ~]$ sh /apps/jupyter/kisti_conda_plugins.sh
+```
 
 \- https://jupyter.ksc.re.kr 홈페이지로 접속하여 jupyter 실행하여 잘 동작하는지 확인한다.
 
