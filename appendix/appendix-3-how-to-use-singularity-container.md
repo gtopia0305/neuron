@@ -35,8 +35,7 @@ export PATH=$PATH:/apps/applications/singularity/3.9.7/bin/
 
 
 
-\[이미지 빌드 명령어]
-
+{% code title="[이미지 빌드 명령어]" %}
 ```
 $ singularity [global options...] build [local options...] ＜IMAGE PATH＞ ＜BUILD SPEC＞
 
@@ -63,11 +62,11 @@ docker:// 도커 레지스트리 (default 도커 허브)
 shub:// 싱규레러티 레지스트리 (default 싱귤레러티 허브)
 oras:// OCI 레지스트리
 ```
+{% endcode %}
 
 ****
 
-**\[예제]**
-
+{% code title="[예제]" %}
 ```
 ① recipe 파일로부터 ubuntu1.sif 이미지 빌드하기
  $ singularity build --fakeroot ubuntu1.sif ubuntu.def* 
@@ -108,6 +107,7 @@ oras:// OCI 레지스트리
  %post
  conda install matplotlib -y
 ```
+{% endcode %}
 
 
 
@@ -182,8 +182,7 @@ $ singularity [global options...] run [run options...] ＜container＞
 
 ****
 
-**\[예제]**
-
+{% code title="[예제]" %}
 ```
 ① Nvidia GPU 장착 계산 노드의 싱귤레러티 컨테이너에서 쉘 실행 후 사용자 프로그램 실행 
 $ singularity shell --nv＊ tensorflow_22.03-tf1-keras-py3.sif
@@ -224,6 +223,7 @@ NOTE: Mellanox network driver detected, but NVIDIA peer memory driver not
 
 Python 3.8.10 (default, Nov 26 2021, 20:14:08)
 ```
+{% endcode %}
 
 ※ 싱귤레러티의 명령어\[shell | exec | run | pull ...] 별 도움말을 보려면 “singularity help \[command]”를 실행함\
 \* ) 계산/로그인 노드에서 Nvidia GPU를 사용하기 위해서는 --nv 옵션을 사용해야 함
