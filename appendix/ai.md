@@ -396,13 +396,12 @@ export PATH=/home01/${USER} /.local/bin:$PATH
 
 #### call your code below
 python test.py
-exit
+exit 
 ```
 
-&#x20;
 
-\- start-head.sh
 
+{% code title="- start-head.sh" %}
 ```
 #!/bin/bash 
 
@@ -414,11 +413,11 @@ echo "starting ray head node"
 ray start --head --node-ip-address=$1 --port=12345 --redis-password=$2 
 sleep infinity
 ```
+{% endcode %}
 
 &#x20;
 
-\- start-worker.sh
-
+{% code title="- start-worker.sh" %}
 ```
 #!/bin/bash 
 
@@ -429,6 +428,7 @@ echo "starting ray worker node"
 ray start --address $1 --redis-password=$2 
 sleep infinity
 ```
+{% endcode %}
 
 &#x20;
 
@@ -517,8 +517,7 @@ exit
 
 &#x20;
 
-\- mnist\_pytorch\_trainable.py
-
+{% code title="- mnist_pytorch_trainable.py" %}
 ```
 from __future__ import print_function
 
@@ -549,6 +548,7 @@ from ray.tune.examples.mnist_pytorch import (train, test, get_data_loaders,
                                  "use_gpu": True})
  print("Best config is:", analysis.get_best_config(metric="mean_accuracy", mode="max"))
 ```
+{% endcode %}
 
 &#x20;
 
