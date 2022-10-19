@@ -297,8 +297,7 @@ python test.py
 
 &#x20;
 
-\- test.py
-
+{% code title="- test.py" %}
 ```
 import ray 
 
@@ -328,6 +327,7 @@ counters = [Counter.remote() for i in range(4)]
 futures = [c.read.remote() for c in counters] 
 print(ray.get(futures)) # [1, 1, 1, 1]
 ```
+{% endcode %}
 
 &#x20;
 
@@ -603,8 +603,7 @@ Submitit은 Slurm 클러스터 내에서 계산을 위해 Python 함수를 제�
 
 ### **1) 예제 1**
 
-\- add.py
-
+{% code title="- add.py" %}
 ```
 #!/usr/bin/env python3 
 
@@ -630,6 +629,7 @@ print(job.job_id)
  # print result 
 print(job.result())
 ```
+{% endcode %}
 
 ```
 $ ./add.py 
@@ -639,8 +639,7 @@ $ ./add.py
 
 &#x20;
 
-\- 110651\_submission.sh
-
+{% code title="- 110651_submission.sh" %}
 ```
 #!/bin/bash 
 
@@ -667,6 +666,7 @@ srun
     -m submitit.core._submit 
     /scratch/${USER}/2022/02-submitit/test/log_test
 ```
+{% endcode %}
 
 &#x20;
 
@@ -684,21 +684,18 @@ srun
 
 ### **2) 예제 2**
 
-\- add.py
-
+{% code title="- add.py" %}
 ```
 #!/usr/bin/env python3 
 
  def add(a, b): 
     return a + b 
 
- print(add(5, 7))
+ print(add(5, 7)) 
 ```
+{% endcode %}
 
-&#x20;
-
-\- run.sh
-
+{% code title="- run.sh" %}
 ```
 #!/bin/bash
  
@@ -710,6 +707,7 @@ srun
 
 ./add.py
 ```
+{% endcode %}
 
 &#x20;
 
@@ -720,8 +718,7 @@ $ sbatch run.sh
 
 &#x20;
 
-\- add.py
-
+{% code title="- add.py" %}
 ```
 #!/usr/bin/env python3 
 
@@ -748,6 +745,7 @@ print(job.job_id)
  # print result 
 print(job.result())
 ```
+{% endcode %}
 
 ```
 $ ./add.py 
@@ -765,8 +763,7 @@ $ ./add.py
 
 &#x20;
 
-\- add\_para.py
-
+{% code title="- add_para.py" %}
 ```
 #!/usr/bin/env python3 
 
@@ -794,6 +791,7 @@ print(job.job_id)
  # print results 
 print(job.results())
 ```
+{% endcode %}
 
 ```
 $ ./add_para.py 
@@ -803,8 +801,7 @@ $ ./add_para.py
 
 &#x20;
 
-\- submitit/submitit/slurm/slurm.py
-
+{% code title="- submitit/submitit/slurm/slurm.py" %}
 ```
 def _make_sbatch_string( 
     command: str, 
@@ -838,6 +835,7 @@ def _make_sbatch_string(
     additional_parameters: tp.Optional[tp.Dict[str, tp.Any]] = None, 
     srun_args: tp.Optional[tp.Iterable[str]] = None ) -> str:
 ```
+{% endcode %}
 
 &#x20;
 
