@@ -9,6 +9,7 @@
 * [사용자 프로그래밍 환경](system/user-programming-environment.md)
 * [스케줄러(SLURM)를 통한 작업 실행](system/running-jobs-through-scheduler-slurm.md)
 * [사용자 지원](system/user-support.md)
+* [SYSTEM HISTORY](system/system-history.md)
 
 ## SOFTWARE
 
