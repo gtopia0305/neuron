@@ -51,7 +51,21 @@
 14\) System, User별 CPU, GPU 갯수를 표시한다\
 
 
+<div>
+
 <figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/20221103_173223 (1).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image1 (1).png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
+
+</div>
+
+
 
 #### 1.2.2. 그래프
 
@@ -69,7 +83,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image2 (1).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2 (2).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
 
 &#x20;
 
@@ -96,7 +110,7 @@
 \- 실행중인 메뉴 존재시 아이콘 좌측에 실행중 아이콘이 표시된다.\
 \- 실행중인 메뉴 존재시 실행중인 메뉴 갯수를 아이콘 우측 상단에 표시한다.
 
-<figure><img src="../.gitbook/assets/image3.png" alt=""><figcaption><p>[서브메뉴]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image3 (1).png" alt=""><figcaption><p>[서브메뉴]</p></figcaption></figure>
 
 
 
@@ -124,7 +138,7 @@
 
 2\)     현재 실행중인 메뉴를 종료한다.
 
-<figure><img src="../.gitbook/assets/image4.png" alt=""><figcaption><p>[메뉴 상태]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image4 (1).png" alt=""><figcaption><p>[메뉴 상태]</p></figcaption></figure>
 
 
 
@@ -146,6 +160,8 @@
 
 <figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image8 (1).png" alt=""><figcaption></figcaption></figure>
+
 나.   화면 구성
 
 \- Neuron 서버의 큐의 Nodes, CPUs, GPUs(Idle, Alloc, Down)의 자원정보를 확인할 수 있다.
@@ -158,11 +174,9 @@
 
 3\. Filtering Clear : 필터링 상태를 취소한다.
 
-<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image9 (1).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
-
-&#x20;
+&#x20;&#x20;
 
 #### 1.3.2. JOB 정보
 
@@ -174,11 +188,9 @@
 
 &#x20;
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image020.jpg)
+<figure><img src="../.gitbook/assets/image10.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
-
-&#x20;
+&#x20;&#x20;
 
 나. 화면 구성
 
@@ -196,20 +208,7 @@
 
 5\.     스크립트 내용보기 : JobId 컬럼을 클릭하면 실행중인 스크립트 내용을 확인 할 수 있다.
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image022.jpg)
-
-&#x20;
-
-&#x20;
-
-&#x20;
-
-&#x20;
-
-\
-
-
-&#x20;
+<figure><img src="../.gitbook/assets/image11 (1).png" alt=""><figcaption><p> </p></figcaption></figure>
 
 #### 1.3.3. JOB 생성
 
@@ -251,7 +250,7 @@
 
 ※  기술지원 > 지침서 > 사용법 > 뉴론 > 스케줄러(SLURM)를 통한 작업 실행 문서를 참조s
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image024.jpg)
+<figure><img src="../.gitbook/assets/image12.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
