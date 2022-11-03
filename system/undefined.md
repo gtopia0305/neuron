@@ -51,7 +51,7 @@
 14\) System, User별 CPU, GPU 갯수를 표시한다\
 
 
-<figure><img src="../.gitbook/assets/image1 (2).png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
 
 #### 1.2.2. 그래프
 
@@ -69,7 +69,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2 (2).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
 
 &#x20;
 
@@ -96,7 +96,7 @@
 \- 실행중인 메뉴 존재시 아이콘 좌측에 실행중 아이콘이 표시된다.\
 \- 실행중인 메뉴 존재시 실행중인 메뉴 갯수를 아이콘 우측 상단에 표시한다.
 
-<figure><img src="../.gitbook/assets/image3.png" alt=""><figcaption><p>[서브메뉴]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image3 (1).png" alt=""><figcaption><p>[서브메뉴]</p></figcaption></figure>
 
 
 
@@ -118,13 +118,13 @@
 
 메뉴를 실행하면 각 메뉴를 실행상태에 따라 아래 그림과 같이 상태를 표시하며 실행중 Abnormal 상태가 발생시 상태에 마우스를 오버하면 상태에 대한 정보확인이 가능하다.
 
-1\)     현재 실행중인 메뉴의 상태를 표시한다.\
+1\) 현재 실행중인 메뉴의 상태를 표시한다.\
 \- 실행중 Abnormal 발생시 진행 상태를 표시한다.\
 \- 마우스 오버시 전체 상태/메세지를 표시한다.
 
-2\)     현재 실행중인 메뉴를 종료한다.
+2\) 현재 실행중인 메뉴를 종료한다.
 
-<figure><img src="../.gitbook/assets/image4.png" alt=""><figcaption><p>[메뉴 상태]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image4 (1).png" alt=""><figcaption><p>[메뉴 상태]</p></figcaption></figure>
 
 
 
@@ -144,7 +144,7 @@
 
 <figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
 
 나.   화면 구성
 
@@ -172,7 +172,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image10 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image10.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;&#x20;
 
@@ -234,7 +234,7 @@
 
 ※  기술지원 > 지침서 > 사용법 > 뉴론 > 스케줄러(SLURM)를 통한 작업 실행 문서를 참조s
 
-<figure><img src="../.gitbook/assets/image12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image12.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
@@ -318,19 +318,15 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image15 (1).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
+<figure><img src="../.gitbook/assets/image15 (1).png" alt=""><figcaption><p> </p></figcaption></figure>
 
 #### 1.4.3. Job 정보 <a href="#_toc118293712" id="_toc118293712"></a>
 
 1\.     Job 정보 : My Job탭에서 Job Id 항목을 선택하면 스크립트 내용을 표기할 수 있다.
 
-&#x20;
+
 
 ※    Push Message : Batch Job 종료되어있으면 Job의 완료 메세지를 받을 수 없습니다.
-
-&#x20;
 
 &#x20;&#x20;
 
