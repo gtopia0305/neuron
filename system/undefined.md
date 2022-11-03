@@ -51,21 +51,7 @@
 14\) System, User별 CPU, GPU 갯수를 표시한다\
 
 
-<div>
-
-<figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
-
- 
-
 <figure><img src="../.gitbook/assets/image1 (2).png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
-
-</div>
-
-
 
 #### 1.2.2. 그래프
 
@@ -83,7 +69,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image2 (1).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
 
 &#x20;
 
@@ -110,7 +96,7 @@
 \- 실행중인 메뉴 존재시 아이콘 좌측에 실행중 아이콘이 표시된다.\
 \- 실행중인 메뉴 존재시 실행중인 메뉴 갯수를 아이콘 우측 상단에 표시한다.
 
-<figure><img src="../.gitbook/assets/image3 (1).png" alt=""><figcaption><p>[서브메뉴]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image3.png" alt=""><figcaption><p>[서브메뉴]</p></figcaption></figure>
 
 
 
@@ -138,7 +124,7 @@
 
 2\)     현재 실행중인 메뉴를 종료한다.
 
-<figure><img src="../.gitbook/assets/image4 (1).png" alt=""><figcaption><p>[메뉴 상태]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image4.png" alt=""><figcaption><p>[메뉴 상태]</p></figcaption></figure>
 
 
 
@@ -146,9 +132,7 @@
 
 #### 1.3.1. 큐 정보 <a href="#_toc118293706" id="_toc118293706"></a>
 
-&#x20;
-
-가.   프로그램 실행
+&#x20;가.   프로그램 실행
 
 ① 메인 대시보드의 서비스 준비가 완료되면, 배치 작업 위젯의 + 버튼을 클릭하여 프로그램을 구동합니다.
 
@@ -158,9 +142,9 @@
 
 ※ 배치 작업을 실행시 서비스 준비가 완료되면 다음과 같은 화면으로 변경됩니다.&#x20;
 
-<figure><img src="../.gitbook/assets/20221103_173223 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image8 (1).png" alt=""><figcaption></figcaption></figure>
 
 나.   화면 구성
 
@@ -176,7 +160,7 @@
 
 <figure><img src="../.gitbook/assets/image9 (1).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;&#x20;
+
 
 #### 1.3.2. JOB 정보
 
@@ -188,7 +172,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image10 (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;&#x20;
 
@@ -198,17 +182,17 @@
 
 ※  기능 구성
 
-1\.     Filtering : \[Your Jobs , All Jobs]으로 데이터를 필터링 할 수 있다.
+1\. Filtering : \[Your Jobs , All Jobs]으로 데이터를 필터링 할 수 있다.
 
-2\.     Refresh : 서버에 동작하는 Job의 정보를 갱신 합니다.
+2\. Refresh : 서버에 동작하는 Job의 정보를 갱신 합니다.
 
-3\.     Cancel : Your Jobs에서 실행중인 프로그램에 대해서 취소할 수 있다. 다중 선택을 지원한다.
+3\. Cancel : Your Jobs에서 실행중인 프로그램에 대해서 취소할 수 있다. 다중 선택을 지원한다.
 
-4\.     키워드 검색 지원 : 모든 필드에 대한 키워드로 필터링 할 수 있다.
+4\. 키워드 검색 지원 : 모든 필드에 대한 키워드로 필터링 할 수 있다.
 
-5\.     스크립트 내용보기 : JobId 컬럼을 클릭하면 실행중인 스크립트 내용을 확인 할 수 있다.
+5\. 스크립트 내용보기 : JobId 컬럼을 클릭하면 실행중인 스크립트 내용을 확인 할 수 있다.
 
-<figure><img src="../.gitbook/assets/image11.png" alt=""><figcaption><p> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image11 (1).png" alt=""><figcaption><p> </p></figcaption></figure>
 
 #### 1.3.3. JOB 생성
 
@@ -251,8 +235,6 @@
 ※  기술지원 > 지침서 > 사용법 > 뉴론 > 스케줄러(SLURM)를 통한 작업 실행 문서를 참조s
 
 <figure><img src="../.gitbook/assets/image12 (1).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
 
 &#x20;
 
@@ -310,7 +292,7 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image13 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image13.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -328,11 +310,11 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 #### 1.4.2. 대시보드 <a href="#_toc118293711" id="_toc118293711"></a>
 
-1\.     이용중인 서비스 내역 표기 : SRU Time, 제공량, 잔여량, 사용량, 활용률, 계약기간 정보를 제공한다.
+1\. 이용중인 서비스 내역 표기 : SRU Time, 제공량, 잔여량, 사용량, 활용률, 계약기간 정보를 제공한다.
 
-2\.     시스템 공지/정기점검 공지사항 : 최근 공지사항에 표기 된다.
+2\. 시스템 공지/정기점검 공지사항 : 최근 공지사항에 표기 된다.
 
-3\.     My Job, 큐정보 영역 : My Job에서 현재 동작 프로그램 확인 하며,  취소기능을 지원한다.  큐정보는 Idle, Alloc, Down 자원 사용량을 확인 가능하다.
+3\. My Job, 큐정보 영역 : My Job에서 현재 동작 프로그램 확인 하며,  취소기능을 지원한다.  큐정보는 Idle, Alloc, Down 자원 사용량을 확인 가능하다.
 
 &#x20;
 
@@ -354,18 +336,10 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 <figure><img src="../.gitbook/assets/20221103_174638.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
-
-&#x20;
-
-&#x20;
-
 #### 1.4.4. 큐 정보 <a href="#_toc118293713" id="_toc118293713"></a>
 
 큐 정보 : 큐 정보를 탭을 선택하면 접속한 시스템의 큐 정보를 보여준다
 
-<figure><img src="../.gitbook/assets/image18 (1).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
+<figure><img src="../.gitbook/assets/image18.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
