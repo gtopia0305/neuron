@@ -48,12 +48,10 @@
 
 13\) 메뉴 실행 아이콘
 
-14\) System, User별 CPU, GPU 갯수를 표시한다
-
-\
+14\) System, User별 CPU, GPU 갯수를 표시한다\
 
 
-&#x20;
+<figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
 
 #### 1.2.2. 그래프
 
@@ -69,9 +67,7 @@
 
 \-       User 사용자 할당 현황
 
-&#x20;
-
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image004.jpg)
+&#x20;![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image004.jpg)
 
 \[시스템 사용현황]
 
