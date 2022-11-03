@@ -67,9 +67,9 @@
 
 \-       User 사용자 할당 현황
 
-&#x20;![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image004.jpg)
+&#x20;
 
-\[시스템 사용현황]
+<figure><img src="../.gitbook/assets/image2 (1).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
 
 &#x20;
 
