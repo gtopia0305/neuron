@@ -57,11 +57,11 @@
 
  
 
-<figure><img src="../.gitbook/assets/20221103_173223 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image1 (1).png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image1 (2).png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
 
 </div>
 
@@ -83,7 +83,7 @@
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image2 (2).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2 (1).png" alt=""><figcaption><p>[시스템 사용현황]</p></figcaption></figure>
 
 &#x20;
 
@@ -154,13 +154,13 @@
 
 ② 탭으로 구성된 화면에서 \[큐 정보]를 클릭하여 이동합니다.
 
-<figure><img src="../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image5 (1).png" alt=""><figcaption></figcaption></figure>
 
 ※ 배치 작업을 실행시 서비스 준비가 완료되면 다음과 같은 화면으로 변경됩니다.&#x20;
 
-<figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20221103_173223 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
 
 나.   화면 구성
 
@@ -208,7 +208,7 @@
 
 5\.     스크립트 내용보기 : JobId 컬럼을 클릭하면 실행중인 스크립트 내용을 확인 할 수 있다.
 
-<figure><img src="../.gitbook/assets/image11 (1).png" alt=""><figcaption><p> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image11.png" alt=""><figcaption><p> </p></figcaption></figure>
 
 #### 1.3.3. JOB 생성
 
@@ -250,7 +250,7 @@
 
 ※  기술지원 > 지침서 > 사용법 > 뉴론 > 스케줄러(SLURM)를 통한 작업 실행 문서를 참조s
 
-<figure><img src="../.gitbook/assets/image12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image12 (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
@@ -280,19 +280,21 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 \- 폼의 선택 값에 따라 파라미터 자동 입력 영역에 자동으로 생성됩니다.
 
-4: 스크립트 :
 
-\-       파라미터 자동 입력 영역 : 사용자가 편집할 수 없으며 파라미터 입력란에서 입력한 값이 자동으로 반영된다
 
-\-       사용자 스크립트 영역 : 파라미터 이외의 값을 사용자가 자유롭게 입력할 수 있다
+4\. 스크립트 :
+
+\-  파라미터 자동 입력 영역 : 사용자가 편집할 수 없으며 파라미터 입력란에서 입력한 값이 자동으로 반영된다
+
+\-  사용자 스크립트 영역 : 파라미터 이외의 값을 사용자가 자유롭게 입력할 수 있다
 
 &#x20;
 
-5: 파일 정보
+5\. 파일 정보
 
-\-       현재 디렉토리 : 현재 선택한 디렉토리를 표시한다
+\-  현재 디렉토리 : 현재 선택한 디렉토리를 표시한다
 
-\-       작업 스크립트 파일명 : 현재 선택한 Job 파일 이름을 표시한다
+\-  작업 스크립트 파일명 : 현재 선택한 Job 파일 이름을 표시한다
 
 &#x20;
 
@@ -308,13 +310,9 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 &#x20;
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image026.jpg)
+<figure><img src="../.gitbook/assets/image13 (1).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
 
-&#x20;
-
-&#x20;
 
 ### 1.4. 모바일
 
@@ -326,11 +324,7 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 &#x20;
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image028.jpg)
-
-&#x20;
-
-&#x20;
+<figure><img src="../.gitbook/assets/image14.png" alt=""><figcaption></figcaption></figure>
 
 #### 1.4.2. 대시보드 <a href="#_toc118293711" id="_toc118293711"></a>
 
@@ -342,7 +336,7 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 &#x20;
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image030.jpg)
+<figure><img src="../.gitbook/assets/image15 (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
@@ -356,11 +350,9 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 &#x20;
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image032.jpg)  ![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image034.jpg)
+&#x20;&#x20;
 
-&#x20;
-
-&#x20;
+<figure><img src="../.gitbook/assets/20221103_174638.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
@@ -372,7 +364,7 @@ Delete : 파일 트리에서 선택한 파일 또는 디렉토리를 삭제한�
 
 큐 정보 : 큐 정보를 탭을 선택하면 접속한 시스템의 큐 정보를 보여준다
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image036.jpg)
+<figure><img src="../.gitbook/assets/image18 (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
