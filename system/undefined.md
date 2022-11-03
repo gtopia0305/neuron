@@ -140,17 +140,11 @@
 
 ② 탭으로 구성된 화면에서 \[큐 정보]를 클릭하여 이동합니다.
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image010.jpg)
+<figure><img src="../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure>
 
-※ 배치 작업을 실행시 서비스 준비가 완료되면 다음과 같은 화면으로 변경됩니다.
+※ 배치 작업을 실행시 서비스 준비가 완료되면 다음과 같은 화면으로 변경됩니다.&#x20;
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image012.jpg)   ![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image014.jpg)
-
-&#x20;
-
-&#x20;
-
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image016.jpg)
+<figure><img src="../.gitbook/assets/20221103_173223.png" alt=""><figcaption></figcaption></figure>
 
 나.   화면 구성
 
@@ -164,7 +158,7 @@
 
 3\. Filtering Clear : 필터링 상태를 취소한다.
 
-![](file:///C:/Users/GTIDEA\~1/AppData/Local/Temp/msohtmlclip1/01/clip\_image018.jpg)
+<figure><img src="../.gitbook/assets/image8.png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
