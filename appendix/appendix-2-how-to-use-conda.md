@@ -66,8 +66,7 @@ Python 사용자들이 패키지 설치 시 가장 어려움을 겪는 의존성
 
 &#x20;
 
-&#x20;\- 예제 -
-
+{% code title=" - 예제 -" %}
 ```
 $ module load python/3.7.1
 $ conda create -n scikit-learn_0.21 --use-local
@@ -94,6 +93,7 @@ Executing transaction: done
 $ source activate scikit-learn_0.21
 (scikit-learn_0.21) $
 ```
+{% endcode %}
 
 &#x20;
 
@@ -107,8 +107,7 @@ $ source activate scikit-learn_0.21
 
 &#x20;
 
-&#x20;\- 예제 -
-
+{% code title=" - 예제 -" %}
 ```
 $ module load python/3.7.1
 $ source activate scikit-learn_0.21
@@ -149,6 +148,7 @@ Executing transaction: done
 (scikit-learn_0.21) $ python -c "import sklearn"
 (scikit-learn_0.21) $
 ```
+{% endcode %}
 
 &#x20;
 
@@ -158,8 +158,7 @@ Executing transaction: done
 
 &#x20;
 
-\-예제-
-
+{% code title="-예제-" %}
 ```
 (scikit-learn_0.21) $ conda env list
 # conda environments:
@@ -169,6 +168,7 @@ scikit-learn_0.21     *  /home01/userID/.conda/envs/scikit-learn_0.21
 (scikit-learn_0.21) $ conda deactivate
 $
 ```
+{% endcode %}
 
 &#x20;
 
@@ -178,14 +178,14 @@ $
 
 &#x20;
 
-\-예제-
-
+{% code title="-예제-" %}
 ```
 $ module load python/3.7.1
 $ conda env remove -n scikit-learn_0.21
 Remove all packages in environment /home01/userID/.conda/envs/scikit-learn_0.21:
 $
 ```
+{% endcode %}
 
 &#x20;****&#x20;
 
@@ -201,8 +201,7 @@ $
 
 &#x20;
 
-\-예제-
-
+{% code title="-예제-" %}
 ```
 $ module load python/3.7.1
 $ source activate tensorflow_1.12
@@ -215,6 +214,7 @@ Packing environment at '/home01/userID/.conda/envs/tensorflow_1.12' to 'conda_te
 -rw-------. 1 userID in0162 1459826406 Mar 28 15:03 conda_tensorflow_1.12.tar.gz
 (tensorflow_1.12) $
 ```
+{% endcode %}
 
 &#x20;
 
@@ -224,8 +224,7 @@ Packing environment at '/home01/userID/.conda/envs/tensorflow_1.12' to 'conda_te
 
 &#x20;
 
-\-예제-
-
+{% code title="-예제-" %}
 ```
 $ module load python/3.7.1
 $ mkdir -p $HOME/.conda/envs/tensorflow_1.12
@@ -234,6 +233,7 @@ $ source activate tensorflow_1.12
 (tensorflow_1.12) $ conda deactivate
 $
 ```
+{% endcode %}
 
 &#x20;&#x20;
 

@@ -27,6 +27,10 @@ coverY: 0
 [user-support.md](system/user-support.md)
 {% endcontent-ref %}
 
+{% content-ref url="system/system-history.md" %}
+[system-history.md](system/system-history.md)
+{% endcontent-ref %}
+
 ### SOFTWARE
 
 {% content-ref url="software/gaussian16-gpu-sw-userguide.md" %}

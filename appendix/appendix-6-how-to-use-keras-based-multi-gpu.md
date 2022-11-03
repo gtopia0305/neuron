@@ -6,14 +6,26 @@ Keras(케라스)는 파이썬으로 작성된 오픈 소스 신경망 라이브�
 
 1\) \[from keras.utils import multi\_gpu\_model] 모듈 추가
 
-| <p>import keras </p><p>from keras.datasets import cifar10 </p><p>from keras.models import Sequential </p><p>from keras.layers import Dense, Dropout, Activation, Flatten </p><p>from keras.layers import Conv2D, MaxPooling2D </p><p><mark style="color:red;">from keras.utils import multi_gpu_model</mark> </p><p>import os</p> |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+```
+import keras 
+from keras.datasets import cifar10 
+from keras.models import Sequential 
+from keras.layers import Dense, Dropout, Activation, Flatten 
+from keras.layers import Conv2D, MaxPooling2D 
+from keras.utils import multi_gpu_model 
+import os
+```
 
 2\) 코드 내 multi-gpu사용 선언
 
-|                                                                                                                                                                                                                                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p># initiate RMSprop optimizer<br>opt = keras.optimizers.rmsprop(lr=0.0001, decay=1e-6) <br># multi-gpu<br><mark style="color:red;">model = multi_gpu_model(model, gpus=2)</mark><br># Let's train the model using RMSprop<br>model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])</p> |
+```
+# initiate RMSprop optimizer
+opt = keras.optimizers.rmsprop(lr=0.0001, decay=1e-6) 
+# multi-gpu
+model = multi_gpu_model(model, gpus=2)
+# Let's train the model using RMSprop
+model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
+```
 
 
 
@@ -21,8 +33,23 @@ Keras(케라스)는 파이썬으로 작성된 오픈 소스 신경망 라이브�
 
 3\) 작업제출 스크립트
 
-| <p>#!/bin/sh</p><p>#SBATCH -J keras</p><p>#SBATCH --time=24:00:00</p><p>#SBATCH -o %x_%j.out</p><p>#SBATCH -e %x_%j.err</p><p>#SBATCH -p cas_v100_4</p><p>#SBATCH --comment tensorflow</p><p>#SBATCH --gres=gpu:2</p><p>#SBATCH --nodes=2</p><p>#SBATCH --ntasks-per-node=8</p><p></p><p>module purge</p><p>module load gcc/8.3.0 cuda/10.0 cudampi/openmpi-3.1.0 conda/tensorflow_1.13</p><p></p><p>srun python example.py</p> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+```
+#!/bin/sh
+#SBATCH -J keras
+#SBATCH --time=24:00:00
+#SBATCH -o %x_%j.out
+#SBATCH -e %x_%j.err
+#SBATCH -p cas_v100_4
+#SBATCH --comment tensorflow
+#SBATCH --gres=gpu:2
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=8
+
+module purge
+module load gcc/8.3.0 cuda/10.0 cudampi/openmpi-3.1.0 conda/tensorflow_1.13
+
+srun python example.py
+```
 
 {% hint style="info" %}
 2022년 7월 28일에 마지막으로 업데이트되었습니다.
