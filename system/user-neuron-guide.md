@@ -51,7 +51,7 @@
 14\) System, User별 CPU, GPU 갯수를 표시한다\
 
 
-<figure><img src="../.gitbook/assets/image1.png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/메인화면1.png" alt=""><figcaption><p>[메인화면]</p></figcaption></figure>
 
 #### 1.2.2. 그래프
 
