@@ -31,8 +31,8 @@ coverY: 0
 [system-history.md](system/system-history.md)
 {% endcontent-ref %}
 
-{% content-ref url="system/undefined.md" %}
-[undefined.md](system/undefined.md)
+{% content-ref url="system/user-neuron-guide.md" %}
+[user-neuron-guide.md](system/user-neuron-guide.md)
 {% endcontent-ref %}
 
 ### SOFTWARE
